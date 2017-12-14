@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_background_new_york"
+            android:contentDescription="@string/desc_logo"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/_120dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_vcard"
+            android:contentDescription="@string/desc_background"/>
+        
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:layout_above="@+id/btnRegister"
+            android:background="@color/colorTransWhite"
+            android:text="@string/btn_signin"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="21dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorTransWhite"
+            android:text="@string/btn_register"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

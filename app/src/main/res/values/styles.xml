@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- Toolbar. -->
+    <style name="WidgetToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:paddingRight">@dimen/_16dp</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="ToolbarIconBack">
+        <item name="android:layout_width">@dimen/_24dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@null</item>
+        <item name="android:tint">@color/colorRed</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_toolbar_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ToolbarMenuLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_toolbar_title</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="ToolbarMenuRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_toolbar_title</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+
+    <!-- Custom -->
+    <style name="EditTextCustom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_64dp</item>
+        <item name="android:paddingStart">@dimen/_16dp</item>
+        <item name="android:paddingEnd">@dimen/_16dp</item>
+        <item name="android:textSize">@dimen/font_size_edit_text</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditTextVerification">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/font_size_edit_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <!-- Other -->
+    <style name="ViewSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1dp</item>
+        <item name="android:background">@color/colorGreySeparator</item>
+    </style>
+
+</resources>

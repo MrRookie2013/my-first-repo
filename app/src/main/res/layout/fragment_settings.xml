@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/WidgetToolbar">
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:text="@string/title_settings" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vCardId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/_16dp"
+                android:text="@string/lbl_vcard_id"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_16dp"
+                android:layout_marginLeft="@dimen/_16dp"
+                android:layout_marginBottom="@dimen/_8dp"
+                android:text="@string/lbl_sort_by"
+                android:textAllCaps="true"
+                android:textColor="@color/colorHeader"
+                android:gravity="start"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/ViewSeparator" />
+
+                <TextView
+                    android:id="@+id/tvAscending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_16dp"
+                    android:text="@string/lbl_ascending" />
+
+                <View
+                    style="@style/ViewSeparator" />
+
+                <TextView
+                    android:id="@+id/tvDescending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_16dp"
+                    android:text="@string/lbl_descending" />
+
+                <View
+                    style="@style/ViewSeparator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_32dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/ViewSeparator" />
+
+                <TextView
+                    android:id="@+id/tvDebug"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_16dp"
+                    android:text="@string/lbl_debug" />
+
+                <View
+                    style="@style/ViewSeparator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_32dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/ViewSeparator" />
+
+                <TextView
+                    android:id="@+id/tvHelpAndSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_16dp"
+                    android:text="@string/lbl_help_and_support" />
+
+                <View
+                    style="@style/ViewSeparator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_32dp"
+                android:background="@color/colorWhite"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/ViewSeparator" />
+
+                <TextView
+                    android:id="@+id/tvSignout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginBottom="@dimen/_16dp"
+                    android:text="@string/lbl_signout"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorRed"/>
+
+                <View
+                    style="@style/ViewSeparator" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

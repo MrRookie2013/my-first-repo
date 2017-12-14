@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary-->
+    <color name="colorPrimary">#0067AC</color>
+    <color name="colorPrimaryDark">#155797</color>
+    <color name="colorAccent">#0067AC</color>
+
+
+    <!--Custom-->
+    <color name="colorHint">#c7c7cd</color>
+    <color name="colorSeparator">#0e6ee2</color>
+    <color name="colorGreySeparator">#c7c7cd</color>
+    <color name="colorHeader">#6d6d72</color>
+
+
+
+    <!--By Name-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#ff2600</color>
+    <color name="colorBlue">#FFFFFF</color>
+    <color name="colorOrange">#f8981c</color>
+
+    <color name="colorTransWhite">#33FFFFFF</color>
+
+</resources>

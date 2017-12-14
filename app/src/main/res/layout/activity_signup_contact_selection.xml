@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background_vcard_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10dp"
+        android:background="@drawable/shape_contact_selection_round"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:gravity="center"
+            android:text="@string/lbl_my_vcard"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size_edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:text="@string/text_use_existing_contact"
+            android:textSize="12sp"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorSeparator" />
+
+        <TextView
+            android:id="@+id/tvChooseContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_16dp"
+            android:paddingBottom="@dimen/_16dp"
+            android:gravity="center"
+            android:text="@string/lbl_choose_contact"
+            android:textSize="17sp"
+            android:textColor="@color/colorOrange" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorSeparator" />
+
+        <TextView
+            android:id="@+id/tvCreateNewContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_16dp"
+            android:paddingBottom="@dimen/_16dp"
+            android:gravity="center"
+            android:text="@string/lbl_create_new_contact"
+            android:textSize="17sp"
+            android:textColor="@color/colorOrange" />
+
+    </LinearLayout>
+</RelativeLayout>

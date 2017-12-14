@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Font Size -->
+    <dimen name="font_size_edit_text">14sp</dimen>
+    <dimen name="font_size_header">14sp</dimen>
+    <dimen name="font_size_toolbar_title">17sp</dimen>
+
+
+    <!-- Value on DP -->
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <dimen name="_36dp">36dp</dimen>
+    <dimen name="_42dp">42dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_64dp">64dp</dimen>
+    <dimen name="_75dp">75dp</dimen>
+
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_120dp">120dp</dimen>
+
+    <dimen name="_200dp">200dp</dimen>
+    <dimen name="_210dp">210dp</dimen>
+    <dimen name="_220dp">22dp</dimen>
+    <dimen name="_230dp">230dp</dimen>
+    <dimen name="_240dp">240dp</dimen>
+    <dimen name="_250dp">250dp</dimen>
+    <dimen name="_260dp">260dp</dimen>
+    <dimen name="_270dp">270dp</dimen>
+    <dimen name="_280dp">280dp</dimen>
+    <dimen name="_290dp">290dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/WidgetToolbar">
+
+        <ImageButton
+            style="@style/ToolbarIconBack"
+            android:id="@+id/ibBack" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:text="@string/title_signin" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/EditTextCustom"
+                android:id="@+id/etUsername"
+                android:hint="@string/lbl_username" />
+
+            <EditText
+                style="@style/EditTextCustom"
+                android:id="@+id/etPassword"
+                android:hint="@string/lbl_password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50dp"
+                android:layout_gravity="center"
+                android:text="@string/text_forgot_password"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_12dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:text="@string/btn_submit"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:gravity="center"
+                android:text="@string/text_others_wiil" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/WidgetToolbar">
+
+        <TextView
+            style="@style/ToolbarMenuLeft"
+            android:text="@string/title_vcard" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:text="@string/title_my_info" />
+
+        <TextView
+            style="@style/ToolbarMenuRight"
+            android:text="@string/title_edit" />
+    </android.support.v7.widget.Toolbar>
+
+
+</android.support.constraint.ConstraintLayout>
